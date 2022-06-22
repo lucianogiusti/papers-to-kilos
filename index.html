@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Calcula kilos necesarios de papel</title>
+</head>
+<body>
+    <div class="testbox">
+        <form action="/" id="form">
+          <div class="banner">
+            <h1>Calcula cuantos kilos necesitas de papel</h1>
+          </div>
+        <div class="item">
+            <label for="muestras">Cantidad de muestras<span>*</span></label>
+            <input id="cantidad-muestras" type="number" name="muestras" required/>
+        </div>
+        <div class="question">
+            <label >Tipo de analisis</label>
+            <div class="question-answer" id="opciones">
+              <div>
+                <input type="radio" value="maiz" id="radio_1" name="analisis"/>
+                <label for="radio_1" class="radio"><span>Maiz</span></label>
+              </div>
+              <div>
+                <input type="radio" value="girasol" id="radio_2" name="analisis"/>
+                <label for="radio_2" class="radio"><span>Girasol</span></label>
+              </div>
+              <div>
+                <input  type="radio" value="svt" id="radio_3" name="analisis"/>
+                <label for="radio_3" class="radio"><span>SVT</span></label>
+              </div>
+            </div>
+        </div>
+        <div class="btn-block">
+            <button type="submit" href="/">SUBMIT</button>
+        </div> 
+        </form>
+    </div>
+
+  <!--   <div class="testbox">
+        <h2 id="show-result"></h2>
+    </div>
+ -->
+    <footer class="testbox">Creado por  ---><a href="https://github.com/lucianogiusti">Luciano Giusti</a></footer>
+    
+</body>
+</html>
